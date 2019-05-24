@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F4511AB22978AA800712B0F /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5F4511AA22978AA800712B0F /* emoji zone.mp4 */; };
 		5F6C73602296764200F8BDF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C735F2296764200F8BDF1 /* AppDelegate.swift */; };
 		5F6C73622296764200F8BDF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C73612296764200F8BDF1 /* ViewController.swift */; };
 		5F6C73652296764200F8BDF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C73632296764200F8BDF1 /* Main.storyboard */; };
 		5F6C73672296764300F8BDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C73662296764300F8BDF1 /* Assets.xcassets */; };
 		5F6C736A2296764300F8BDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C73682296764300F8BDF1 /* LaunchScreen.storyboard */; };
+		5F6C73C32296865800F8BDF1 /* Gaspar Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C73BF2296865800F8BDF1 /* Gaspar Regular.otf */; };
+		5F6C73C42296865800F8BDF1 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C73C02296865800F8BDF1 /* MFZhiHei_Noncommercial-Regular.ttf */; };
+		5F6C73C52296865800F8BDF1 /* MFTongXin_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C73C12296865800F8BDF1 /* MFTongXin_Noncommercial-Regular.ttf */; };
+		5F6C73C62296865800F8BDF1 /* MFJinHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C73C22296865800F8BDF1 /* MFJinHei_Noncommercial-Regular.ttf */; };
+		5F6C73C92296869900F8BDF1 /* CustomFontVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C73C72296869900F8BDF1 /* CustomFontVC.swift */; };
+		5F6C73CA2296869900F8BDF1 /* CustomFontVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C73C82296869900F8BDF1 /* CustomFontVC.xib */; };
+		5F6C73CF22969BBD00F8BDF1 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C73CD22969BBD00F8BDF1 /* VideoViewController.swift */; };
+		5F6C73D022969BBD00F8BDF1 /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C73CE22969BBD00F8BDF1 /* VideoViewController.xib */; };
+		5F6C73D322969D3100F8BDF1 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C73D122969D3100F8BDF1 /* VideoCell.swift */; };
+		5F6C73D52296ACDB00F8BDF1 /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C73D72296ACDB00F8BDF1 /* VideoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F4511AA22978AA800712B0F /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
 		5F6C735C2296764200F8BDF1 /* SwiftLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6C735F2296764200F8BDF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F6C73612296764200F8BDF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,16 @@
 		5F6C73662296764300F8BDF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F6C73692296764300F8BDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F6C736B2296764300F8BDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6C73BF2296865800F8BDF1 /* Gaspar Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gaspar Regular.otf"; sourceTree = "<group>"; };
+		5F6C73C02296865800F8BDF1 /* MFZhiHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFZhiHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		5F6C73C12296865800F8BDF1 /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		5F6C73C22296865800F8BDF1 /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		5F6C73C72296869900F8BDF1 /* CustomFontVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontVC.swift; sourceTree = "<group>"; };
+		5F6C73C82296869900F8BDF1 /* CustomFontVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomFontVC.xib; sourceTree = "<group>"; };
+		5F6C73CD22969BBD00F8BDF1 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		5F6C73CE22969BBD00F8BDF1 /* VideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoViewController.xib; sourceTree = "<group>"; };
+		5F6C73D122969D3100F8BDF1 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		5F6C73D62296ACDB00F8BDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/VideoCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,8 @@
 		5F6C735E2296764200F8BDF1 /* SwiftLearning */ = {
 			isa = PBXGroup;
 			children = (
+				5F6C73BD2296865800F8BDF1 /* Project02-CustomFont */,
+				5F6C73CB22969B0100F8BDF1 /* Project03-PlayLocalVideo */,
 				5F6C735F2296764200F8BDF1 /* AppDelegate.swift */,
 				5F6C73612296764200F8BDF1 /* ViewController.swift */,
 				5F6C73632296764200F8BDF1 /* Main.storyboard */,
@@ -62,6 +86,47 @@
 				5F6C736B2296764300F8BDF1 /* Info.plist */,
 			);
 			path = SwiftLearning;
+			sourceTree = "<group>";
+		};
+		5F6C73BD2296865800F8BDF1 /* Project02-CustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				5F6C73BE2296865800F8BDF1 /* Font */,
+				5F6C73C72296869900F8BDF1 /* CustomFontVC.swift */,
+				5F6C73C82296869900F8BDF1 /* CustomFontVC.xib */,
+			);
+			path = "Project02-CustomFont";
+			sourceTree = "<group>";
+		};
+		5F6C73BE2296865800F8BDF1 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				5F6C73BF2296865800F8BDF1 /* Gaspar Regular.otf */,
+				5F6C73C02296865800F8BDF1 /* MFZhiHei_Noncommercial-Regular.ttf */,
+				5F6C73C12296865800F8BDF1 /* MFTongXin_Noncommercial-Regular.ttf */,
+				5F6C73C22296865800F8BDF1 /* MFJinHei_Noncommercial-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		5F6C73CB22969B0100F8BDF1 /* Project03-PlayLocalVideo */ = {
+			isa = PBXGroup;
+			children = (
+				5F6C73CC22969B0100F8BDF1 /* Video */,
+				5F6C73CD22969BBD00F8BDF1 /* VideoViewController.swift */,
+				5F6C73CE22969BBD00F8BDF1 /* VideoViewController.xib */,
+				5F6C73D122969D3100F8BDF1 /* VideoCell.swift */,
+				5F6C73D72296ACDB00F8BDF1 /* VideoCell.xib */,
+			);
+			path = "Project03-PlayLocalVideo";
+			sourceTree = "<group>";
+		};
+		5F6C73CC22969B0100F8BDF1 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				5F4511AA22978AA800712B0F /* emoji zone.mp4 */,
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +188,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F6C736A2296764300F8BDF1 /* LaunchScreen.storyboard in Resources */,
+				5F6C73C62296865800F8BDF1 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
+				5F6C73C42296865800F8BDF1 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
+				5F6C73C32296865800F8BDF1 /* Gaspar Regular.otf in Resources */,
+				5F6C73CA2296869900F8BDF1 /* CustomFontVC.xib in Resources */,
+				5F6C73D52296ACDB00F8BDF1 /* VideoCell.xib in Resources */,
 				5F6C73672296764300F8BDF1 /* Assets.xcassets in Resources */,
+				5F4511AB22978AA800712B0F /* emoji zone.mp4 in Resources */,
+				5F6C73C52296865800F8BDF1 /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
 				5F6C73652296764200F8BDF1 /* Main.storyboard in Resources */,
+				5F6C73D022969BBD00F8BDF1 /* VideoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F6C73D322969D3100F8BDF1 /* VideoCell.swift in Sources */,
 				5F6C73622296764200F8BDF1 /* ViewController.swift in Sources */,
+				5F6C73C92296869900F8BDF1 /* CustomFontVC.swift in Sources */,
+				5F6C73CF22969BBD00F8BDF1 /* VideoViewController.swift in Sources */,
 				5F6C73602296764200F8BDF1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +233,14 @@
 				5F6C73692296764300F8BDF1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5F6C73D72296ACDB00F8BDF1 /* VideoCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6C73D62296ACDB00F8BDF1 /* Base */,
+			);
+			name = VideoCell.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,14 +366,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = BUSLFV36ZF;
 				INFOPLIST_FILE = SwiftLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.SwiftLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = shoude_Dev_0724;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,14 +386,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = BUSLFV36ZF;
 				INFOPLIST_FILE = SwiftLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.SwiftLearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = shoude_Dev_0724;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

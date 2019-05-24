@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="videoCellID" rowHeight="228" id="KGk-i7-Jjw" customClass="VideoCell" customModule="SwiftLearning" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="367" height="228"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="367" height="227.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="videoScreenshot04" translatesAutoresizingMaskIntoConstraints="NO" id="Bs4-pS-M8V">
+                        <rect key="frame" x="0.0" y="0.0" width="367" height="227.5"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lOO-lg-Imk">
+                        <rect key="frame" x="153.5" y="84" width="60" height="60"/>
+                        <state key="normal" image="playBtn"/>
+                        <connections>
+                            <action selector="videoButtonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="BeK-Gd-uf2"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRy-zd-S8x">
+                        <rect key="frame" x="162.5" y="196.5" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="视频播放" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b5Y-b4-1Mj">
+                        <rect key="frame" x="149.5" y="169.5" width="68" height="17"/>
+                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Bs4-pS-M8V" secondAttribute="bottom" id="513-Ip-dsq"/>
+                    <constraint firstItem="b5Y-b4-1Mj" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="8aL-tk-ONb"/>
+                    <constraint firstAttribute="trailing" secondItem="Bs4-pS-M8V" secondAttribute="trailing" id="9jc-LD-k2a"/>
+                    <constraint firstItem="kRy-zd-S8x" firstAttribute="top" secondItem="b5Y-b4-1Mj" secondAttribute="bottom" constant="10" id="Alk-VS-4bn"/>
+                    <constraint firstItem="kRy-zd-S8x" firstAttribute="centerX" secondItem="Bs4-pS-M8V" secondAttribute="centerX" id="IrS-bE-2bS"/>
+                    <constraint firstItem="Bs4-pS-M8V" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ScK-Be-dEG"/>
+                    <constraint firstItem="lOO-lg-Imk" firstAttribute="centerX" secondItem="Bs4-pS-M8V" secondAttribute="centerX" id="lYf-fw-ig7"/>
+                    <constraint firstItem="kRy-zd-S8x" firstAttribute="bottom" secondItem="Bs4-pS-M8V" secondAttribute="bottom" constant="-10" id="oIX-vK-xXh"/>
+                    <constraint firstItem="lOO-lg-Imk" firstAttribute="centerY" secondItem="Bs4-pS-M8V" secondAttribute="centerY" id="uZU-KU-o7C"/>
+                    <constraint firstItem="Bs4-pS-M8V" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="zi7-yY-FND"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="videoDescription" destination="kRy-zd-S8x" id="jug-zP-pwn"/>
+                <outlet property="videoScreenshot" destination="Bs4-pS-M8V" id="6YK-Br-aVB"/>
+                <outlet property="videoTitleLabel" destination="b5Y-b4-1Mj" id="2qa-sB-bsa"/>
+            </connections>
+            <point key="canvasLocation" x="-169" y="-44"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="playBtn" width="60" height="60"/>
+        <image name="videoScreenshot04" width="375" height="220"/>
+    </resources>
+</document>
