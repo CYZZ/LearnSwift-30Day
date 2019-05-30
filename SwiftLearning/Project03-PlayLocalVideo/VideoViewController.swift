@@ -15,7 +15,7 @@ class VideoViewController: UIViewController {
 
 	
 	@IBOutlet weak var videoTableView: UITableView!
-	var data = [
+	var data:[Video] = [
 		// 给项目编译后属于同一个module，所以Video不需要import就可以使用
 		Video(image: "videoScreenshot01",
 			  title: "Introduce 3DS Mario",
@@ -84,6 +84,14 @@ extension VideoViewController:UITableViewDataSource,UITableViewDelegate {
 			self.present(self.playerVC, animated: true, completion: {
 				self.playerVC.player?.play()
 			})
+		}
+		
+		
+		cell.myButtonClosuer = {
+			(title,subTitle) in
+			print("当前播放视频的标题= \(title)")
+			print("当前副标题= \(subTitle)")
+			return indexPath.row
 		}
 		
 		return cell

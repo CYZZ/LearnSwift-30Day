@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraVC" customModule="SwiftLearning" customModuleProvider="target">
+            <connections>
+                <outlet property="cameraView" destination="lrC-2s-xAS" id="MC5-lJ-uOV"/>
+                <outlet property="tempImageView" destination="HCs-fu-lKK" id="SQ9-Zk-oei"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lrC-2s-xAS">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HCs-fu-lKK">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="HCs-fu-lKK" secondAttribute="trailing" id="AGN-I4-CbN"/>
+                <constraint firstItem="HCs-fu-lKK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ECI-Ya-754"/>
+                <constraint firstItem="lrC-2s-xAS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Fbe-zS-qfB"/>
+                <constraint firstAttribute="trailing" secondItem="lrC-2s-xAS" secondAttribute="trailing" id="Hnx-4q-8D9"/>
+                <constraint firstItem="HCs-fu-lKK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="IgE-WQ-s10"/>
+                <constraint firstAttribute="bottom" secondItem="HCs-fu-lKK" secondAttribute="bottom" id="OO0-80-Hmy"/>
+                <constraint firstItem="lrC-2s-xAS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Uxo-Bb-QLi"/>
+                <constraint firstAttribute="bottom" secondItem="lrC-2s-xAS" secondAttribute="bottom" id="ZtM-Jw-naR"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

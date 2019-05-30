@@ -22,6 +22,14 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
+	<key>NSCameraUsageDescription</key>
+	<string>需要开启相机权限</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>请允许我获取位置权限</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>你在哪</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>请允许我定位并发送给我</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIAppFonts</key>
