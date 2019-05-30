@@ -58,6 +58,26 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 			self.navigationController?.pushViewController(CustomFontVC(), animated: true)
 		} else if indexPath.row == 3 {
 			self.navigationController?.pushViewController(VideoViewController(), animated: true)
+		} else if indexPath.row == 4 {
+			self.navigationController?.pushViewController(SnapChatViewController(), animated: true)
+		}else if indexPath.row == 5 {
+			self.navigationController?.pushViewController(CarouselViewController(), animated: true)
+		} else if indexPath.row == 6 {
+			self.navigationController?.pushViewController(LocationViewController(), animated: true)
+		}else if indexPath.row == 7 {
+			self.navigationController?.pushViewController(PullRefreshViewController(), animated: true)
+		}else if indexPath.row == 8 {
+			self.navigationController?.pushViewController(RandomColorViewController(), animated: true)
+		} else if indexPath.row == 9 {
+			self.navigationController?.pushViewController(ImageScrollViewController(), animated: true)
+		} else if indexPath.row == 10 {
+			self.navigationController?.pushViewController(SpotifyVideoViewController(), animated: true)
+		} else if indexPath.row == 11 {
+			self.navigationController?.pushViewController(ClearTableViewController(), animated: true)
+		} else if indexPath.row == 12 {
+			self.navigationController?.pushViewController(LoginAnimationVC(), animated: true)
+		} else if indexPath.row == 13 {
+			self.navigationController?.pushViewController(AnimateTableViewController(), animated: true)
 		}
 		
 		print("row = \(self.data[indexPath.row]),hhhh")

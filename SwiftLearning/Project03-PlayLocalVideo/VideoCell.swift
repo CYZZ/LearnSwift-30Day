@@ -23,10 +23,15 @@ class VideoCell: UITableViewCell {
 	@IBOutlet weak var videoTitleLabel: UILabel!
 	@IBOutlet weak var videoDescription: UILabel!
 	
-//	var myButtonClosuer:(Dictionary) -> Void = {
-//		(a:Dictionary) -> Void in
-//		print("dic = \(a)")
-//	}
+	var myButtonClosuer:(_ title:String,_ subTitle:String) -> Int = {
+		(t1,t2) in
+		print("param == = \(t1)")
+		return 1
+	}
+	
+	
+	
+	
 	
 	var testClosure:() -> Void = {}
 	
@@ -34,6 +39,7 @@ class VideoCell: UITableViewCell {
 	override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+		
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -44,6 +50,8 @@ class VideoCell: UITableViewCell {
 	
 	@IBAction func videoButtonClick(_ sender: UIButton) {
 		testClosure()
+		_ = myButtonClosuer(self.videoTitleLabel.text!,self.videoDescription.text!)
+		
 	}
 	
     
