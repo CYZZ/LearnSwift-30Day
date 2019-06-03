@@ -28,7 +28,22 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 				"13-AnimateTableViewCell",
 				"14-EmojiSlotMachine",
 				"15-AnimatedSplash",
-				"16-SlideMenu"]
+				"16-SlideMenu",
+				"17-TumblrMenu",
+				"18-LimitCharacters",
+				"19-CustomPullToRefresh",
+				"20-CollectionViewAnimation",
+				"21-SwipeableCell",
+				"22-3DTouchQuickAction",
+				"23-SlideOutMenu",
+				"24-MosaicLayout",
+				"25-UIViewBasicAnimation",
+				"26-CoreDataApp",
+				"27-TabbarApp",
+				"28-SpolightSearch",
+				"29-iMessageImagePicker",
+				"30-WikiFace",
+				]
 	
 
 	@IBOutlet weak var tableView: UITableView!
@@ -78,6 +93,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 			self.navigationController?.pushViewController(LoginAnimationVC(), animated: true)
 		} else if indexPath.row == 13 {
 			self.navigationController?.pushViewController(AnimateTableViewController(), animated: true)
+		} else if indexPath.row == 14 {
+			self.navigationController?.pushViewController(EmojiMachineVC(), animated: true)
+		}else if indexPath.row == 15 {
+			self.navigationController?.pushViewController(AnimatedSplashVC(), animated: true)
+		}else if indexPath.row == 17 {
+			self.present(MenuViewController(), animated: true) {
+				
+			};
+//			self.navigationController?.pushViewController(AnimatedSplashVC(), animated: true)
+		} else if indexPath.row == 18 {
+			self.navigationController?.pushViewController(LimitCharacterVC(), animated: true)
+		} else if indexPath.row == 19 {
+			self.navigationController?.pushViewController(CustomPullToRefreshVC(), animated: true)
 		}
 		
 		print("row = \(self.data[indexPath.row]),hhhh")

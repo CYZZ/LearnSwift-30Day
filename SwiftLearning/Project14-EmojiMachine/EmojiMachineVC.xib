@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmojiMachineVC" customModule="SwiftLearning" customModuleProvider="target">
+            <connections>
+                <outlet property="emojiPickView" destination="D0f-9F-B6O" id="Rhy-hA-ZDW"/>
+                <outlet property="resultLabel" destination="Zfu-nG-LIJ" id="XKF-om-9Ug"/>
+                <outlet property="startButton" destination="1xP-vk-RVr" id="Rpk-TI-EUv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D0f-9F-B6O">
+                    <rect key="frame" x="0.0" y="235.5" width="375" height="216"/>
+                    <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </pickerView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xP-vk-RVr">
+                    <rect key="frame" x="0.0" y="475" width="375" height="50"/>
+                    <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Wm4-hz-d7M"/>
+                    </constraints>
+                    <color key="tintColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="GO"/>
+                    <connections>
+                        <action selector="startButtonClick:" destination="-1" eventType="touchUpInside" id="tzk-GW-Nvu"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zfu-nG-LIJ">
+                    <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                    <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="alq-pF-9F7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="1xP-vk-RVr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="17g-0b-XY5"/>
+                <constraint firstItem="D0f-9F-B6O" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="6bY-ND-H67"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1xP-vk-RVr" secondAttribute="trailing" id="77o-RX-b4h"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Zfu-nG-LIJ" secondAttribute="bottom" id="7wl-Fo-gwm"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="1xP-vk-RVr" secondAttribute="bottom" constant="142" id="N7v-Ai-hjr"/>
+                <constraint firstItem="D0f-9F-B6O" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="PYa-NN-smX"/>
+                <constraint firstItem="D0f-9F-B6O" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="ThM-os-faj"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Zfu-nG-LIJ" secondAttribute="trailing" id="TjZ-7p-4r7"/>
+                <constraint firstItem="Zfu-nG-LIJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="wAo-7P-B68"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="34" y="-182"/>
+        </view>
+    </objects>
+</document>

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F1725C322A1078300586B6A /* EmojiMachineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1725C122A1078300586B6A /* EmojiMachineVC.swift */; };
+		5F1725C422A1078300586B6A /* EmojiMachineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F1725C222A1078300586B6A /* EmojiMachineVC.xib */; };
+		5F1725C822A13E1400586B6A /* AnimatedSplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1725C622A13E1400586B6A /* AnimatedSplashVC.swift */; };
+		5F1725C922A13E1400586B6A /* AnimatedSplashVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F1725C722A13E1400586B6A /* AnimatedSplashVC.xib */; };
 		5F36521C229E900B0098B424 /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5F36521B229E900B0098B424 /* moments.mp4 */; };
 		5F36521F229E94EC0098B424 /* SpotifyVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F36521D229E94EC0098B424 /* SpotifyVideoViewController.swift */; };
 		5F365220229E94EC0098B424 /* SpotifyVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F36521E229E94EC0098B424 /* SpotifyVideoViewController.xib */; };
@@ -21,6 +25,14 @@
 		5F4B6AA6229FE84E0063BAE9 /* AnimateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4B6AA4229FE84E0063BAE9 /* AnimateTableViewController.swift */; };
 		5F4B6AA7229FE84E0063BAE9 /* AnimateTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F4B6AA5229FE84E0063BAE9 /* AnimateTableViewController.xib */; };
 		5F4B6AA9229FE8CD0063BAE9 /* firstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4B6AA8229FE8CD0063BAE9 /* firstTableViewCell.swift */; };
+		5F4ECFBE22A4FD7E007F2EDD /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4ECFBC22A4FD7E007F2EDD /* MenuViewController.swift */; };
+		5F4ECFBF22A4FD7E007F2EDD /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F4ECFBD22A4FD7E007F2EDD /* MenuViewController.xib */; };
+		5F4ECFC122A50461007F2EDD /* MenuTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4ECFC022A50461007F2EDD /* MenuTransitionManager.swift */; };
+		5F4ECFC622A51363007F2EDD /* LimitCharacterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4ECFC422A51363007F2EDD /* LimitCharacterVC.swift */; };
+		5F4ECFC722A51363007F2EDD /* LimitCharacterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F4ECFC522A51363007F2EDD /* LimitCharacterVC.xib */; };
+		5F4ECFCB22A52186007F2EDD /* CustomPullToRefreshVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4ECFC922A52186007F2EDD /* CustomPullToRefreshVC.swift */; };
+		5F4ECFCC22A52186007F2EDD /* CustomPullToRefreshVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F4ECFCA22A52186007F2EDD /* CustomPullToRefreshVC.xib */; };
+		5F4ECFCE22A5269D007F2EDD /* RefreshContents.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F4ECFCD22A5269D007F2EDD /* RefreshContents.xib */; };
 		5F53FC1B229CE459000BCCE1 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F53FC19229CE459000BCCE1 /* LocationViewController.swift */; };
 		5F53FC1C229CE459000BCCE1 /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F53FC1A229CE459000BCCE1 /* LocationViewController.xib */; };
 		5F53FC20229CE7D5000BCCE1 /* CLocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F53FC1F229CE7D5000BCCE1 /* CLocationDelegate.swift */; };
@@ -60,6 +72,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F1725C122A1078300586B6A /* EmojiMachineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMachineVC.swift; sourceTree = "<group>"; };
+		5F1725C222A1078300586B6A /* EmojiMachineVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmojiMachineVC.xib; sourceTree = "<group>"; };
+		5F1725C622A13E1400586B6A /* AnimatedSplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSplashVC.swift; sourceTree = "<group>"; };
+		5F1725C722A13E1400586B6A /* AnimatedSplashVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimatedSplashVC.xib; sourceTree = "<group>"; };
 		5F36521B229E900B0098B424 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
 		5F36521D229E94EC0098B424 /* SpotifyVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyVideoViewController.swift; sourceTree = "<group>"; };
 		5F36521E229E94EC0098B424 /* SpotifyVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpotifyVideoViewController.xib; sourceTree = "<group>"; };
@@ -74,6 +90,14 @@
 		5F4B6AA4229FE84E0063BAE9 /* AnimateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateTableViewController.swift; sourceTree = "<group>"; };
 		5F4B6AA5229FE84E0063BAE9 /* AnimateTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimateTableViewController.xib; sourceTree = "<group>"; };
 		5F4B6AA8229FE8CD0063BAE9 /* firstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTableViewCell.swift; sourceTree = "<group>"; };
+		5F4ECFBC22A4FD7E007F2EDD /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		5F4ECFBD22A4FD7E007F2EDD /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		5F4ECFC022A50461007F2EDD /* MenuTransitionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTransitionManager.swift; sourceTree = "<group>"; };
+		5F4ECFC422A51363007F2EDD /* LimitCharacterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitCharacterVC.swift; sourceTree = "<group>"; };
+		5F4ECFC522A51363007F2EDD /* LimitCharacterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LimitCharacterVC.xib; sourceTree = "<group>"; };
+		5F4ECFC922A52186007F2EDD /* CustomPullToRefreshVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPullToRefreshVC.swift; sourceTree = "<group>"; };
+		5F4ECFCA22A52186007F2EDD /* CustomPullToRefreshVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomPullToRefreshVC.xib; sourceTree = "<group>"; };
+		5F4ECFCD22A5269D007F2EDD /* RefreshContents.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RefreshContents.xib; sourceTree = "<group>"; };
 		5F53FC19229CE459000BCCE1 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		5F53FC1A229CE459000BCCE1 /* LocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationViewController.xib; sourceTree = "<group>"; };
 		5F53FC1F229CE7D5000BCCE1 /* CLocationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLocationDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +149,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F1725C022A1071B00586B6A /* Project14-EmojiMachine */ = {
+			isa = PBXGroup;
+			children = (
+				5F1725C122A1078300586B6A /* EmojiMachineVC.swift */,
+				5F1725C222A1078300586B6A /* EmojiMachineVC.xib */,
+			);
+			path = "Project14-EmojiMachine";
+			sourceTree = "<group>";
+		};
+		5F1725C522A13BC400586B6A /* Project15-AnimateSplash */ = {
+			isa = PBXGroup;
+			children = (
+				5F1725C622A13E1400586B6A /* AnimatedSplashVC.swift */,
+				5F1725C722A13E1400586B6A /* AnimatedSplashVC.xib */,
+			);
+			path = "Project15-AnimateSplash";
+			sourceTree = "<group>";
+		};
 		5F3651FE229E19320098B424 /* Project10-SpotifyVideoBackG */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +206,42 @@
 				5F4B6AA8229FE8CD0063BAE9 /* firstTableViewCell.swift */,
 			);
 			path = "Project13-AnimateTable";
+			sourceTree = "<group>";
+		};
+		5F4ECFBA22A4F3E7007F2EDD /* Project16-SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Project16-SlideMenu";
+			sourceTree = "<group>";
+		};
+		5F4ECFBB22A4F821007F2EDD /* Project17-TumblrMenu */ = {
+			isa = PBXGroup;
+			children = (
+				5F4ECFBC22A4FD7E007F2EDD /* MenuViewController.swift */,
+				5F4ECFBD22A4FD7E007F2EDD /* MenuViewController.xib */,
+				5F4ECFC022A50461007F2EDD /* MenuTransitionManager.swift */,
+			);
+			path = "Project17-TumblrMenu";
+			sourceTree = "<group>";
+		};
+		5F4ECFC322A5133E007F2EDD /* Project18-LimitCharacters */ = {
+			isa = PBXGroup;
+			children = (
+				5F4ECFC422A51363007F2EDD /* LimitCharacterVC.swift */,
+				5F4ECFC522A51363007F2EDD /* LimitCharacterVC.xib */,
+			);
+			path = "Project18-LimitCharacters";
+			sourceTree = "<group>";
+		};
+		5F4ECFC822A5215A007F2EDD /* Project19-CustomPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				5F4ECFC922A52186007F2EDD /* CustomPullToRefreshVC.swift */,
+				5F4ECFCA22A52186007F2EDD /* CustomPullToRefreshVC.xib */,
+				5F4ECFCD22A5269D007F2EDD /* RefreshContents.xib */,
+			);
+			path = "Project19-CustomPullToRefresh";
 			sourceTree = "<group>";
 		};
 		5F53FC13229CE373000BCCE1 /* Project06-FindMyLocation */ = {
@@ -261,6 +339,12 @@
 				5F4B6A97229FD3180063BAE9 /* Project11-ClearTableViewCell */,
 				5F4B6A9E229FDA660063BAE9 /* Project12-LoginAnimation */,
 				5F4B6AA3229FE81A0063BAE9 /* Project13-AnimateTable */,
+				5F1725C022A1071B00586B6A /* Project14-EmojiMachine */,
+				5F1725C522A13BC400586B6A /* Project15-AnimateSplash */,
+				5F4ECFBA22A4F3E7007F2EDD /* Project16-SlideMenu */,
+				5F4ECFBB22A4F821007F2EDD /* Project17-TumblrMenu */,
+				5F4ECFC322A5133E007F2EDD /* Project18-LimitCharacters */,
+				5F4ECFC822A5215A007F2EDD /* Project19-CustomPullToRefresh */,
 				5F6C735F2296764200F8BDF1 /* AppDelegate.swift */,
 				5F6C73612296764200F8BDF1 /* ViewController.swift */,
 				5F6C73632296764200F8BDF1 /* Main.storyboard */,
@@ -374,10 +458,12 @@
 				5F5C32F922990ADE004D8F7B /* SnapChatViewController.xib in Resources */,
 				5F5C330322990DCC004D8F7B /* LeftViewController.xib in Resources */,
 				5F6C736A2296764300F8BDF1 /* LaunchScreen.storyboard in Resources */,
+				5F4ECFCC22A52186007F2EDD /* CustomPullToRefreshVC.xib in Resources */,
 				5F6C73C62296865800F8BDF1 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
 				5F6C73C42296865800F8BDF1 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
 				5F6C73C32296865800F8BDF1 /* Gaspar Regular.otf in Resources */,
 				5F5C330722990DE1004D8F7B /* RightViewController.xib in Resources */,
+				5F1725C422A1078300586B6A /* EmojiMachineVC.xib in Resources */,
 				5F53FC1C229CE459000BCCE1 /* LocationViewController.xib in Resources */,
 				5F6C73CA2296869900F8BDF1 /* CustomFontVC.xib in Resources */,
 				5F5C330C22991EE9004D8F7B /* CarouselViewController.xib in Resources */,
@@ -387,12 +473,16 @@
 				5F36521C229E900B0098B424 /* moments.mp4 in Resources */,
 				5F4511AB22978AA800712B0F /* emoji zone.mp4 in Resources */,
 				5F4B6AA7229FE84E0063BAE9 /* AnimateTableViewController.xib in Resources */,
+				5F1725C922A13E1400586B6A /* AnimatedSplashVC.xib in Resources */,
 				5F4B6AA2229FDA900063BAE9 /* LoginAnimationVC.xib in Resources */,
+				5F4ECFC722A51363007F2EDD /* LimitCharacterVC.xib in Resources */,
+				5F4ECFBF22A4FD7E007F2EDD /* MenuViewController.xib in Resources */,
 				5F5C32FD22990D1B004D8F7B /* CameraVC.xib in Resources */,
 				5F5C331022991F18004D8F7B /* InterestCollectionViewCell.xib in Resources */,
 				5F6C73C52296865800F8BDF1 /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
 				5F6C73652296764200F8BDF1 /* Main.storyboard in Resources */,
 				5F6C73D022969BBD00F8BDF1 /* VideoViewController.xib in Resources */,
+				5F4ECFCE22A5269D007F2EDD /* RefreshContents.xib in Resources */,
 				5F365220229E94EC0098B424 /* SpotifyVideoViewController.xib in Resources */,
 				5F53FC28229D1772000BCCE1 /* Ecstasy.mp3 in Resources */,
 				5F53FC2D229D1D40000BCCE1 /* ImageScrollViewController.xib in Resources */,
@@ -408,8 +498,12 @@
 			files = (
 				5F4B6AA9229FE8CD0063BAE9 /* firstTableViewCell.swift in Sources */,
 				5F5C330B22991EE9004D8F7B /* CarouselViewController.swift in Sources */,
+				5F4ECFC622A51363007F2EDD /* LimitCharacterVC.swift in Sources */,
 				5F53FC20229CE7D5000BCCE1 /* CLocationDelegate.swift in Sources */,
+				5F4ECFBE22A4FD7E007F2EDD /* MenuViewController.swift in Sources */,
+				5F1725C822A13E1400586B6A /* AnimatedSplashVC.swift in Sources */,
 				5F4B6A9A229FD36A0063BAE9 /* ClearTableViewController.swift in Sources */,
+				5F4ECFC122A50461007F2EDD /* MenuTransitionManager.swift in Sources */,
 				5F5C32F822990ADE004D8F7B /* SnapChatViewController.swift in Sources */,
 				5F6C73D322969D3100F8BDF1 /* VideoCell.swift in Sources */,
 				5F4B6A9D229FD4890063BAE9 /* ClearTableViewCell.swift in Sources */,
@@ -425,6 +519,8 @@
 				5F53FC1B229CE459000BCCE1 /* LocationViewController.swift in Sources */,
 				5F36521F229E94EC0098B424 /* SpotifyVideoViewController.swift in Sources */,
 				5F53FC26229D172C000BCCE1 /* RandomColorViewController.swift in Sources */,
+				5F4ECFCB22A52186007F2EDD /* CustomPullToRefreshVC.swift in Sources */,
+				5F1725C322A1078300586B6A /* EmojiMachineVC.swift in Sources */,
 				5F6C73C92296869900F8BDF1 /* CustomFontVC.swift in Sources */,
 				5F5C330222990DCC004D8F7B /* LeftViewController.swift in Sources */,
 				5F6C73CF22969BBD00F8BDF1 /* VideoViewController.swift in Sources */,
